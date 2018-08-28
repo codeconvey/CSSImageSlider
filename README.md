@@ -4,4 +4,4 @@ It added dots navigation that allows user to navigate the slider. One of another
 
 All you have to do copy and paste the code. It allows you to customize easily. One of greater feature it allow to add more or fewer images. We have explained all the process on our website. 
 
-You can find <a target="_blank" href="http://codeconvey.com/pure-css-image-slider/">CSS Image Slider</a> here to learn more about it. We have to write step by step guide how to build and add more or fewer images.
+You can find <a target="_blank" href="http://codeconvey.com/pure-css-image-slider/">Pure CSS Image Slider</a> here to to see demo and download file. We have to write step by step guide how to build and add more or fewer images.

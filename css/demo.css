@@ -9,11 +9,90 @@ body {
   overflow-x: hidden;
 }
 
+/* -------------------------------------------------------------------------------------------
+	PAGE LAYOUT PURPOSE ONLY - MAY NOT REQUIRE
+---------------------------------------------------------------------------------------------- *
+
+/* Container & Wrapper */
+.wrapper {
+    background: #fff;
+    overflow: auto;
+    margin-top: 50px;
+	padding: 2em;
+}
+/* Columns */
+.column{ float:left;}
+.colum_full{ width:100%;}
+.colum_6{ width:60%;}
+.colum_5{ width:50%;}
+.colum_4{ width:40%;}
+.colum_3{ width:30%;}
+.colum_2{ width:20%;}
+.colum_1{ width:10%;}
+.column_half{
+	float: left;
+    margin: 0 2%;
+    width: 46%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
 
 .container {
-   
-	 height: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
+
+
+
+
+
+/* To Navigation Style */
+.codeconTop {
+   background:#523D1F;
+    font-size: 0.69em;
+    line-height: 2.2;
+    padding: 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.codeconTop a {
+    color: #fff;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    padding: 2em;
+    text-decoration: none;
+}
+
+.codeconTop a:hover {
+	background: rgba(255,255,255,0.95);
+	color: #716d62;
+}
+
+.codeconTop span.right {
+	float: right;
+}
+
+.codeconTop span.right a {
+	float: left;
+	display: block;
+}
+
 
 header {
    text-align: center;
@@ -23,6 +102,14 @@ header {
 	padding-top:50px;
 }
 
+section {
+    display: block;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    padding: 2em 4em 0;
+    text-align: center;
+}
 .descriptions{
 	margin: 0 auto;
     padding-bottom: 0;
@@ -116,6 +203,7 @@ footer {
     letter-spacing: 2px;
     line-height: 14px;
     text-transform: uppercase;
+	text-align:center;
 }
 
 footer a{
